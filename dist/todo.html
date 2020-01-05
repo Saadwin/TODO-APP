@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mission Log</title>
+  <link href='https://fonts.googleapis.com/css?family=Antic|Saira+Condensed|Tomorrow&display=swap' rel='stylesheet' type='text/css'>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+
+  <style>
+    body {
+      background-color: #0d0d0d;
+      font-family: 'Tomorrow';
+      font-size: 25px;
+      font-variant: small-caps;
+      color: #ffffff;
+    }
+    .container {
+      margin: 150px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="headings">MISSION LOG</h1>
+  <audio autoplay preload='auto' loop id="myAudio">
+  <source src="./Mission-Impossible.mp3" type="audio/mpeg" >
+  </audio>
+  <h2 id="datetime" /></h2>
+  <ul id="list-items"></ul>
+  <form class="add-items">
+    <input type="text" class="form-control" id="todo-list-item" placeholder="add mission">
+    <button class="add" type="submit"><img src="https://img.icons8.com/ios-filled/50/000000/action.png" alt= execute></button>
+  </form>
+
+</body>
+
+</html>
